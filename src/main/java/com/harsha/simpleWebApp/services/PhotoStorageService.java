@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class PhotoStorageService {
-    private final String storagePath = "/Users/pabbineedi_harsha/Desktop/RagnarPhotos/1stMonthShoot";
+    private final String storagePath = "src/main/resources/images";
     public List<String> listFiles() {
         File folder = new File(storagePath);
         if (!folder.exists() || !folder.isDirectory()) {

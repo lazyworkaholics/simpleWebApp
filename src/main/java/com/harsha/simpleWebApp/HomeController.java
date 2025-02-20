@@ -43,7 +43,7 @@ public class HomeController {
     }
 
     // Directory where thumbnails are stored locally on your computer
-    private final String thumbnailsDirectory = "/Users/pabbineedi_harsha/Desktop/RagnarPhotos/1stMonthShoot";
+    private final String thumbnailsDirectory = "src/main/resources/images";
 
     // Method to list all images (you can also use a dynamic list here if needed)
     @GetMapping("/harsha")
@@ -67,7 +67,8 @@ public class HomeController {
 
     @GetMapping("/harshaimages")
     public List<String> greet() {
-        return photoStorageService.listFiles();
+        List<String> files = photoStorageService.listFiles();
+        return files;
     }
 
     // Method to serve image thumbnails from local storage
