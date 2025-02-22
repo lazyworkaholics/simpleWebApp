@@ -1,3 +1,5 @@
 com/harsha/simpleWebApp/SimpleWebAppApplication.class
+com/harsha/simpleWebApp/services/CorsConfig$1.class
+com/harsha/simpleWebApp/services/CorsConfig.class
 com/harsha/simpleWebApp/services/PhotoStorageService.class
 com/harsha/simpleWebApp/HomeController.class
